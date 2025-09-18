@@ -1,0 +1,53 @@
+.header
+{
+    
+    display: flex;
+    height: 45px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(216, 210, 210);
+    z-index: 100;
+    
+    
+    
+}
+
+.leftsec
+{
+    
+    
+    display: flex;
+    align-items: center;
+}
+
+.midsec
+{
+    flex: 1;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    max-width: 600px;
+    
+    align-items: center;
+}
+
+.rightsec
+{
+    
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+
+}
